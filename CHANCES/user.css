@@ -1,0 +1,69 @@
+header{
+    color: rgb(3, 163, 3);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+ img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 30px rgb(237, 237, 237);
+    margin: 0 auto;
+}
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    padding-top 10px;
+}
+ ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 27, 27);
+}
+hr{
+    color: rgb(0, 173, 17);
+    font-size: 2px;
+}
+.descripcion h3{
+    color: black;
+    font-weight: bold;
+
+}
+.descripcion{
+    padding-left: 30px;
+}
+.descrip{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitulo{
+    font-weight: bold;
+}
+.importante{
+    color: green;
+
+}
+input[type="button"]{
+    background-color: white;
+    border-style: none;
+    box-shadow: 0 0 10px 10px rgb(237, 237, 237);
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+input[type="button"]:hover{
+    transition: 0.8s;
+    background-color: rgb(1, 206, 1);
+    color: white;
+    box-shadow: 0 0 10px 10px rgba(31, 201, 31, 0.382);
+}
