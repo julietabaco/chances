@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(44, 155, 44);
+    font-size: 40px;
+}
+h4{
+    color: rgb(100, 99, 99);
+    text-align: center;
+}
+.form p{
+    background-color: rgb(44, 155, 44);
+    padding: 5px;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+p input[type="text"]{
+    width: 140px;
+    margin-left: 10px;
+    height: 30px;
+    text-align: center;
+    color: green;
+}
+#boton{
+    background-color: transparent;
+}
+input[type="button"]{
+    background-color: rgb(44, 155, 44);
+    border-style: none;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px; 
+}
+input[type="button"]:hover{
+    transition: 0.5s;
+    font-weight: bold;
+    box-shadow: 0 0 20px 10px rgba(228, 228, 228, 0.308);
+    background-color: rgb(73, 233, 73);
+}
+.linea{
+    margin-bottom: 20px;
+}

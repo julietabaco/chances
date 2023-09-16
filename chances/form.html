@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Servicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        
+        .card {
+            display: flex;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 100%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+        
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        
+        .info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .intro {
+            margin-top: 10px;
+        }
+        
+        .service {
+            margin-top: 15px;
+        }
+        
+        .service-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .service-cost {
+            font-size: 16px;
+            color: #333;
+            margin-top: 5px;
+        }
+        
+        .ratings {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .rating-stars {
+            color: gold;
+        }
+        
+        .rating-value {
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        
+        .tags {
+            margin-top: 15px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #f1f1f1;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="profile-pic" src="/img/anime-colegiala.webp" alt="Foto de Perfil">
+        <div class="info">
+            <div>
+                <div class="name">Nombre Apellido</div>
+                <div class="job-title">Oficio / Profesión</div>
+                <div class="intro">
+                    ¡Hola! Somos un equipo apasionado por brindar servicios de calidad...
+                </div>
+            </div>
+            <div>
+                <div class="service">
+                    <div class="service-title">Servicio Ofrecido</div>
+                    <div class="service-cost">Costo: $XX</div>
+                </div>
+                <div class="ratings">
+                    <div class="rating-stars">★★★★★</div>
+                    <div class="rating-value">4.9</div>
+                </div>
+                <div class="tags">
+                    <span class="tag">Etiqueta 1</span>
+                    <span class="tag">Etiqueta 2</span>
+                    <span class="tag">Etiqueta 3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

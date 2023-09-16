@@ -1,0 +1,285 @@
+/*---------header----------*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+/*CONTENEDOR SCROLLBAR derecha*/
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  border-radius: 5px;
+}
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* SELECTOR  */
+::-webkit-scrollbar-thumb {
+  background: rgb(109, 223, 185);
+  border-radius: 5px;
+}
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(84, 171, 142);
+  
+}
+.logo{
+    position: relative;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 26pt;
+    color:rgb(34, 181, 32);
+    font-family: 'Caveat', cursive;
+    font-size: 30pt;
+  
+  }
+.portada{
+  background-color:white;
+  border-top: gray;
+}
+header{
+	width: 100%;
+}
+.navegacion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+	margin: 0px auto;
+  text-decoration: none;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+.menu{
+  width: 500px;
+  height: 55px;
+  padding: 3px;
+  display: flex;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+  font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+  font-family: 16pt;
+}
+.menu li a:hover{
+	color: #5bce35;
+	transition: all .3s;
+}
+/*---barra busqueda---*/
+.barrabusqueda {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type=text] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 16px;
+  width: 280px;
+}
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover {
+  transition: 0.5s;
+  font-weight: bold;
+  background-color: rgb(2, 167, 2);
+}
+
+.inisesion a{
+    color: rgb(34, 181, 32);
+    font-size: 13pt;
+  }
+.linea {
+  border-top: 1px solid rgb(178, 176, 176);
+  height: 2px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto 0 auto;
+}
+.login{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .login a{
+    color:#45a049;
+  }
+  .inisesion{
+    text-decoration: none;
+  }
+  .red{
+    color: red;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .perfil img{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+  }
+.ubiperfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: #222222
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 90px;
+  color: white;
+  background-color: #45a049;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dd-menu li a.red {
+  color: white; /* Cambia el color del texto a blanco */
+  background-color: red; /* Cambia el color de fondo a rojo */
+}
+
+.dd-menu li a.red:hover {
+  background-color: darkred; /* Cambia el color de fondo al pasar el cursor por encima */
+}
+
+/*-------------------TERMINA HEADER------------------*/
+.contenedor{
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 30px;
+}
+.filtros{
+  background-color: #45a049;
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+.trabajos{
+    width: 800px;
+    height: 100%;
+    border: solid rgb(121, 118, 118) 1px;
+    border-radius: 10px;
+}
+.contenido{
+    width: 100%;
+    padding: 20px;
+}
+.cardtrabajo{
+    border-bottom: solid rgb(80, 75, 75) 1px;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+}
+@media(max-width:991px){
+  .navegacion{
+    text-align: center;
+  }
+  .footer-links{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

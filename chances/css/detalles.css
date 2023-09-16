@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+.detail{
+    background-color: green;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.detail p{
+    color: white;
+}
+.dato{
+    background-color: white;
+    right: 10px;
+    width: 200px;
+    padding: 2px;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.card-header{
+    font-size: 30px;
+    font-weight: 800;
+}
+.card-footer{
+    color: green;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 55px;
+    margin-top: 20px;
+}

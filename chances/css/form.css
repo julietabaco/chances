@@ -1,0 +1,105 @@
+.card{
+    border-radius: 10px;
+    width: 550px;
+    padding: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.075);
+    margin: 20px;
+}
+.card-body{
+    position: relative;
+}
+.card-title{
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.card-subtitle{
+    font-size: 11pt;
+    color: rgb(118, 113, 113);
+}
+.card-text{
+    font-size: 14pt;
+    padding-top:5px ;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* Estilos para la caja del formulario */
+.form-box {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px;
+    margin-top: 30px;
+    font-size: 25px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.055);
+}
+
+/* Estilos para los campos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    font-weight: bolder;
+}
+/* Estilos para el campo de texto */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px!important;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* Estilos para el campo de texto grande */
+textarea.form-control {
+    height: 100px;
+    resize: vertical; /* Permite ajustar verticalmente */
+}
+.form{
+    border:solid 1px black;
+    height:100px;
+    width: 600px;
+    margin:auto;
+    display:flex;
+    background-color: rgb(55, 180, 180);
+}
+.publicaciones h1{
+    margin-left: 20px;
+}
+.card-body a{
+    border-radius: 5px;
+    background-color: green;
+    padding: 7px;
+    color: white;
+}
+.card-body a:hover{
+    transition: 0.5s;
+    background-color: rgb(2, 167, 2);
+}
+.form-group .descripcion{
+    margin-top: 5px;
+}
+.contenedor-tarjetas{
+    flex-wrap: wrap;
+    flex: flex;
+    display: flex!important;
+    justify-content: space-between;
+    margin: 55px;
+}
+.tarjetas{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 40px;
+}
+.enlaces{
+    justify-content: space-between;
+    display: flex;
+}

@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.082);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.card h1{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(1, 175, 1);
+}
+.card input[type="text"]{
+  width: 200px; 
+  margin-left: 100px;
+  height: 30px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.card textarea{
+    width: 300px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+.card input[type="submit"]{
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: green;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.card input[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: rgb(2, 194, 2);
+}
+.card h3{
+    text-align: center;
+}
